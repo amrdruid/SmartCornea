@@ -17,7 +17,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from app.photo import photo_api
+from smartCornea.photo import photo_api
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
